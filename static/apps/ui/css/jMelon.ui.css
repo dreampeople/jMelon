@@ -1,0 +1,165 @@
+#modal-view {
+	position: absolute;
+	z-index: 2000;
+	width: 100%;
+	height: 100%;
+	top: 0;
+}
+#modal-view > div.modal-view-back, #modal-view > div.modal-view-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -80px;
+	margin-top: -80px;
+}
+#modal-view > div.modal-view-back{
+	width: 160px;
+	height: 160px;
+	border-radius: 10px;
+	line-height: 160px;
+	text-align: center;
+}
+#modal-view > .loading-spinner{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -20px;
+	margin-top: -20px;
+	font-size: 40px;
+}
+
+.ui-button {
+	display: inline-block;
+	/*padding-left: 10px;
+	height: 40px;
+	padding-right: 10px;
+	line-height: 40px;
+	background-color: #444;
+	color: #fff;
+	margin: 2px 2px;
+	-webkit-border-radius: 6px;*/
+}
+.ui-button.down {
+	/*background-color: #aaa;*/
+}
+/* switch */
+.ui-switch {
+	width: 60px;
+	height: 22px;
+	border-color: #F0F0F0;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: rgba(0, 0, 0, 0.298039) 0px 2px 2px 0px inset, rgba(0, 0, 0, 0.2) 0px -1px 1px 0px inset;
+	overflow: hidden;
+}
+.ui-switch .ui-switch-handle {
+	height: 20px;
+	width: 20px;
+	background-color: green;
+}
+.ui-switch .ui-switch-handle .ui-switch-label {
+	width: 40px;
+	height: 20px;
+	position: absolute;
+}
+.ui-switch .ui-switch-handle .ui-switch-label-on {
+	background-color: #007EE9;
+}
+.ui-switch .ui-switch-handle .ui-switch-label-off {
+	background-color: #FFFFFF;
+}
+/* slider */
+.ui-slider {
+	background-color: #272728;
+	border-radius: 10px;
+	width: 210px;
+}
+.ui-slider .ui-slider-corner{
+	width: 10px;
+	height: 10px;
+	background-color: #777;
+	border-radius: 10px;
+}
+/* swipe */
+.ui-swipe {
+	width: 100%;
+	position: absolute;
+	bottom: 40px;
+}
+.ui-swipe .ui-swipe-pages {
+	text-align: center;
+}
+.ui-swipe .ui-swipe-pages li {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	margin: 0 3px;
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#dbdbdb),to(#7a7a7a));
+}
+.ui-swipe .ui-swipe-pages .ui-swipe-current {
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#d17d03),to(#553301));
+}
+
+/* bee2c项目 */
+.ui-toast {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 400;
+	height: 45px;
+	padding-top: 7px;
+	background-image: url(../images/head_tip.png);
+	-webkit-background-size: 100% 100%;
+	z-index:1000;
+}
+
+.ui-toast img{
+	width: 28px;
+	position: absolute;
+	left: 20%;
+	top: 9px;
+}
+
+.ui-toast .bigText{
+	font-weight: bold;
+	font-size: 14px;
+	color: #4A4647;
+}
+.ui-toast .smallText{
+	font-weight: bold;
+	font-size: 12px;
+	color: #888485;
+	margin-top: 2px;
+}
+
+/* bee2c项目 */
+.ui-slideNav {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin: 8px auto;
+}
+
+.ui-slideNav .tabBtn {
+	display: -webkit-box;
+	display: box;
+	-webkit-box-orient: horizontal;
+	color: #727272;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	background-size: 100% 100%;
+}
+
+.ui-slideNav .tabBtn.selected {
+	color: #FFFFFF;
+	background-image: url(../images/tab_item_checked.png);
+}
+
+.ui-slideNav .tabBtn .title {
+	background-position: left;
+	background-repeat: no-repeat;
+	text-align: right;
+}

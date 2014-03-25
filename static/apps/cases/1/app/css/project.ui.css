@@ -1,0 +1,189 @@
+.proui-aboardPerson,
+.proui-editContact {
+	width: 94%;
+	margin: 0 auto;
+	background-color: rgb(201, 201, 203);
+	-webkit-border-radius: 3px;
+}
+.proui-aboardPerson > .item,
+.proui-editContact > .item {
+	height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 50px;
+	font-size: 15px;
+	position: relative;
+	border-top: 1px solid #D5D5D7;
+	border-bottom: 1px solid #AAABB0;
+}
+.proui-aboardPerson > div:first-child,
+.proui-editContact > div:first-child {
+	border-top-width: 0;
+}
+.proui-aboardPerson > div:last-child,
+.proui-editContact > div:last-child {
+	border-bottom-width: 0;
+}
+.proui-aboardPerson > .item > .ui-slideNav {
+	position: absolute;
+	top: 0px;
+	right: 10px;
+}
+.proui-aboardPerson > .item > .ui-slideNav > .tabBtn:nth-child(1) {
+	background-image: url(../images/type_accompany_left_normal.png);
+}
+.proui-aboardPerson > .item > .ui-slideNav > .tabBtn.selected:nth-child(1) {
+	background-image: url(../images/type_accompany_left_press.png);
+}
+.proui-aboardPerson > .item > .ui-slideNav > .tabBtn:nth-child(2) {
+	background-image: url(../images/type_accompany_middle_normal.png);
+}
+.proui-aboardPerson > .item > .ui-slideNav > .tabBtn.selected:nth-child(2) {
+	background-image: url(../images/type_accompany_middle_press.png);
+}
+.proui-aboardPerson > .item > .ui-slideNav > .tabBtn:nth-child(3) {
+	background-image: url(../images/type_accompany_right_normal.png);
+}
+.proui-aboardPerson > .item > .ui-slideNav > .tabBtn.selected:nth-child(3) {
+	background-image: url(../images/type_accompany_right_press.png);
+}
+.proui-aboardPerson > .item > .ui-slideNav > .tabBtn > .title {
+	font-size: 13px;
+	color: #727272;
+	line-height: 30px;
+}
+.proui-aboardPerson > .item > input,
+.proui-editContact > .item > input {
+	border-width: 0px;
+	background-color: rgba(0, 0, 0, 0);
+	height: 49px;
+	color: #2E62BA;
+	position: absolute;
+	text-align: right;
+font-size: 15px;
+	padding-right: 10px;
+	left: 70px;
+	right: 0px;
+	-webkit-user-modify:read-write-plaintext-only;
+}
+.proui-aboardPerson > .item > .hasNext_dark {
+	position: absolute;
+	top: 0px;
+	right: 12px;
+	color: #2E62BA;
+	width: 170px;
+	text-align: right;
+}
+
+.proui-flightDetail > .pointHorizontalDiv,
+.proui-flightDetail > .horizontalDiv {
+	margin-top: 10px;
+}
+.proui-flightDetail > .horizontalDiv > .stationDiv {
+	background-image: url(../images/flight_detail_bg1.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-right: 10px;
+}
+.proui-flightDetail > .horizontalDiv > .stationDiv:nth-child(2) {
+	background-image: url(../images/flight_detail_bg2.png);
+	margin-right: 0px;
+}
+.proui-flightDetail > .horizontalDiv > .stationDiv > .title {
+	font-size: 13px;
+}
+.proui-flightDetail > .horizontalDiv > .stationDiv > .time {
+	font-size: 15px;
+}
+.proui-flightDetail > .horizontalDiv > .stationDiv > .station {
+	font-size: 12px;
+}
+.proui-flightDetail > .horizontalDiv > .priceDiv {
+	color: #ed3501;
+	-webkit-box-flex: 1;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+.priceDiv > .top {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+.priceDiv > .top > img {
+	margin-left: 5px;
+	height: 14px;
+}
+.proui-flightDetail > .horizontalDiv > .info {
+	-webkit-box-flex: 1;
+}
+
+div > .content .introSingle {
+	color: white;
+	font-size: 12px;
+	background-image: url(../images/black_label.png);
+	background-size: 100% 100%;
+	padding-left: 3%;
+	height: 25px;
+	line-height: 25px;
+}
+div > .content .introMultiple {
+	display: -webkit-box;
+	height: 34px;
+	line-height: 34px;
+	color: white;
+	font-size: 12px;
+	background-image: url(../images/black_label.png);
+	background-size: 100% 100%;
+	padding-left: 3%;
+}
+div > .content .introMultiple > div {
+	height: 32px;
+	line-height: 32px;
+	width: 64px;
+	text-align: center;
+	margin-right: 40px;
+}
+div > .content .introMultiple > div.selected {
+	color: #8CC5F2;
+	background-image: url(../images/add_person_bottom.png);
+	background-size: 100% 3px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+div > .content .ui-switch {
+	position: absolute;
+	top: 11px;
+	right: 10px;
+	width: 60px;
+	height: 28px;
+	border-width: 0px;
+	-webkit-border-radius: 4px;
+}
+div > .content .ui-switch > .ui-switch-handle {
+	background-image: url(../images/slipbutton_switch.png);
+	left: 0;
+	width: 30px;
+	height: 28px;
+	color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+div > .content .ui-switch > .ui-switch-handle > .ui-switch-label {
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	width: 30px;
+	height: 28px;
+	color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+div > .content .ui-switch > .ui-switch-handle > .ui-switch-label-on {
+	background-image: url(../images/slipbutton_switch_on.png);
+}
+div > .content .ui-switch > .ui-switch-handle > .ui-switch-label-off {
+	background-image: url(../images/slipbutton_switch_off.png);
+}
+

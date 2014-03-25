@@ -1,0 +1,29 @@
+div.page.success > .content > .swipeContainer {
+	height: 320px;
+}
+
+div.page.successDetail > .content > .swipeContainer {
+	height: 320px;
+}
+
+div.page.successDetail > .content > .intro {
+	height: 200px;
+	padding: 10px 100px;
+}
+
+div.page.successDetail > .content > .showBtn {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #A8E7FF;
+}
+
+div.page.successShow > .content > .showContainer {
+	width: 320px;
+	height: 480px;
+	border: solid 1px #AFAFAF;
+	margin: 55px auto;
+}

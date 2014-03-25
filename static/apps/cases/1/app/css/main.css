@@ -1,0 +1,370 @@
+div.main > .content > .homeSV {
+	position: absolute;
+	top: 0;
+	bottom: 49px;
+}
+
+div.main > .content > .homeSV > .content {
+	display: -webkit-box;
+	z-index: 10;
+}
+
+div.main > .content > .homeSV > .content > .home {
+	position: relative;
+	height: 100%;
+}
+
+div.main > .content > .homeSV > .content > .home1,
+div.main > .content > .homeSV > .content > .home2 {
+	padding-top: 4%;
+	background-color: #D7E1ED;
+	background-repeat: no-repeat;
+	background-size: 320px 70px;
+	background-position: center bottom;
+}
+
+div.main > .content > .homeSV > .content > .home1 {
+	background-image: url(../images/home_bg1.png);
+}
+
+div.main > .content > .homeSV > .content > .home2 {
+	background-image: url(../images/home_bg2.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 {
+	background-color: #E7EBEE;
+}
+
+div.main > .content > .homeSV > .content > .home > .logo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 110px;
+	height: 40px;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus {
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;
+	margin: 0 auto;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline {
+	position:relative;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .cell {
+	background-size: 700% 200%;
+	-webkit-transform: translate3d(0,0,0);
+	background-image: url(../images/home_items.png);
+	text-align: center;
+	font-weight: bold;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .hotelDomestic {
+	background-position: 66.67% 0;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .hotelDomestic.down {
+	background-position: 66.67% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .hotelInternational {
+	background-position: 83.33% 0;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .hotelInternational.down {
+	background-position: 83.33% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .insurance {
+	background-position: 100% 0;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .insurance.down {
+	background-position: 100% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .voice {
+	background-size: 200% 200%;
+	background-image: url(../images/home_voice.png);
+}
+
+div.main > .content > .homeSV > .content > .home1 > .menus > .verline > .voice {
+	background-position: 0 0;
+}
+
+div.main > .content > .homeSV > .content > .home1 > .menus > .verline > .voice.down {
+	background-position: 0 100%;
+}
+
+div.main > .content > .homeSV > .content > .home2 > .menus > .verline > .voice {
+	background-position: 100% 0;
+}
+
+div.main > .content > .homeSV > .content > .home2 > .menus > .verline > .voice.down {
+	background-position: 100% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .bill {
+	background-position: 16.67% 0;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .bill.down {
+	background-position: 16.67% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .flightDomestic {
+	background-position: 33.33% 0;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .flightDomestic.down {
+	background-position: 33.33% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .flightInternational {
+	background-position: 50% 0;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .flightInternational.down {
+	background-position: 50% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .approval {
+	background-position: 0 0;
+}
+
+div.main > .content > .homeSV > .content > .home > .menus > .verline > .approval.down {
+	background-position: 0 100%;
+}
+
+/* 底部导航栏 */
+div.main > .content > .toolbar {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	width: 100%;
+	height: 49px;
+	position: absolute;
+	bottom: 0;
+}
+
+div.main > .content > .toolbar > .button {
+	background-image: url(../images/home_bottom.png);
+	-webkit-background-size: 100% 200%;
+	background-position: 0 0;
+	text-align: center;
+	font-size: 12px;
+	padding-top: 9px;
+	color: #6f6f70;
+}
+
+div.main > .content > .toolbar > .button.selected {
+	background-position: 0 100%;
+	color: #444545;
+}
+
+div.main > .content > .toolbar > div:nth-of-type(1),
+div.main > .content > .toolbar > div:nth-of-type(3) {
+	width: 33.3%;
+}
+
+div.main > .content > .toolbar > div:nth-of-type(2) {
+	-webkit-box-flex: 1;
+}
+
+div.main > .content > .toolbar > .button > .icon{
+	-webkit-background-size: 21.5px 22.5px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 23px;
+}
+
+div.main > .content > .toolbar > div:nth-of-type(1) > .icon{
+	background-image: url(../images/toolbar_personal.png);
+}
+
+div.main > .content > .toolbar > div:nth-of-type(1).selected > .icon{
+	background-image: url(../images/toolbar_personal_s.png);
+}
+
+div.main > .content > .toolbar > div:nth-of-type(2) > .icon{
+	background-image: url(../images/toolbar_company.png);
+}
+
+div.main > .content > .toolbar > div:nth-of-type(2).selected > .icon{
+	background-image: url(../images/toolbar_company_s.png);
+}
+
+div.main > .content > .toolbar > div:nth-of-type(3) > .icon{
+	background-image: url(../images/toolbar_assist.png);
+}
+
+div.main > .content > .toolbar > div:nth-of-type(3).selected > .icon{
+	background-image: url(../images/toolbar_assist_s.png);
+}
+
+/* 页面3 */
+div.main > .content > .homeSV > .content > .home3 > .tel{
+	height: 46px;
+	padding-top: 5px;
+	background-image: url(../images/assist_title_bg.png);
+	-webkit-background-size: 100% 100%;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .tel > .number {
+	width: 180px;
+	height: 33px;
+	margin: 0 auto;
+	background-image: url(../images/home_settings_phone.png);
+	-webkit-background-size: 100% 200%;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .tel > .number.down {
+	background-position: 0 100%;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .icon {
+	width: 33.33%;
+	-webkit-background-size: 49.2px 57.6px;
+	background-repeat: no-repeat;
+	background-position: center top;
+	padding-top: 57.6px;
+	text-align: center;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .msgHandle {
+	background-image: url(../images/message_handle_n.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .msgHandle.down {
+	background-image: url(../images/message_handle_p.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .flightAction {
+	background-image: url(../images/top_flight_action_n.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .flightAction.down {
+	background-image: url(../images/top_flight_action_p.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .feedback {
+	background-image: url(../images/feedback_n.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .feedback.down {
+	background-image: url(../images/feedback_p.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .myCard {
+	background-image: url(../images/my_card_n.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .myCard.down {
+	background-image: url(../images/my_card_p.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .funcIntroduction {
+	background-image: url(../images/function_introduction_n.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .funcIntroduction.down {
+	background-image: url(../images/function_introduction_p.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .about {
+	background-image: url(../images/about_me_n.png);
+}
+
+div.main > .content > .homeSV > .content > .home3 > .bar > .about.down {
+	background-image: url(../images/about_me_p.png);
+}
+div.main > .content > .homeSV > .content > .home3 > .lineMiddle,
+div.main > .content > .homeSV > .content > .home3 > .lineUp,
+div.main > .content > .homeSV > .content > .home3 > .lineDown,
+div.main > .content > .homeSV > .content > .home3 > .logout {
+	width: 96%;
+	height: 40px;
+	-webkit-background-size: 100% 200%;
+	margin: 0 auto;
+	display: -webkit-box;
+	color: #8B8B8E;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .lineMiddle,
+div.main > .content > .homeSV > .content > .home3 > .lineUp {
+	background-image: url(../images/line_up.png);
+	background-position: 0 0;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .lineMiddle.down,
+div.main > .content > .homeSV > .content > .home3 > .lineUp.down {
+	background-position: 0 100%;
+}
+div.main > .content > .homeSV > .content > .home3 > .lineUp {
+	margin-top: 30px;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .lineDown {
+	background-image: url(../images/line_down.png);
+	background-position: 0 0;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .lineDown.down {
+	background-position: 0 100%;
+}
+div.main > .content > .homeSV > .content > .home3 > .lineMiddle > img,
+div.main > .content > .homeSV > .content > .home3 > .lineUp > img,
+div.main > .content > .homeSV > .content > .home3 > .lineDown > img {
+	width: 25px;
+	height: 25px;
+	margin: 8px 13px auto 13px;
+	display: block;
+}
+div.main > .content > .homeSV > .content > .home3 > .lineMiddle > .text,
+div.main > .content > .homeSV > .content > .home3 > .lineUp > .text,
+div.main > .content > .homeSV > .content > .home3 > .lineDown > .text {
+	display: block;
+	width: 120px;
+	line-height: 40px;
+}
+div.main > .content > .homeSV > .content > .home3 > .lineMiddle > .version,
+div.main > .content > .homeSV > .content > .home3 > .lineUp > .version,
+div.main > .content > .homeSV > .content > .home3 > .lineDown > .version {
+	display: block;
+	line-height: 40px;
+	-webkit-box-flex: 1;
+	text-align: right;
+}
+div.main > .content > .homeSV > .content > .home3 > .lineMiddle > span.hasNext,
+div.main > .content > .homeSV > .content > .home3 > .lineUp > span.hasNext,
+div.main > .content > .homeSV > .content > .home3 > .lineDown > span.hasNext {
+	background-image: url(../images/right_arrow.png);
+	background-position: 85% center;
+	padding-right: 15% !important;
+	background-size: 9px 14px;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .logout {
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 15px;
+	background-image: url(../images/more_logout.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+div.main > .content > .homeSV > .content > .home3 > .logout.down {
+	background-position: 0 100%;
+}

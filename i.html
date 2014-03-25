@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head> 	
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no" />
+		<title>jMelon</title>
+
+		<link rel="stylesheet"	href="static/apps/melon/css/jMelon.phone.css" />
+		<link rel="stylesheet"	href="static/apps/melon/css/jMelon.animation.css" />
+		<link rel="stylesheet"	href="static/apps/melon/css/jMelon.scrollview.css" />
+		<link rel="stylesheet"	href="static/apps/main/css/jMelon.normal.css" />
+
+		<link rel="stylesheet"	href="static/apps/ui/css/jMelon.ui.css" />
+
+		<link rel="stylesheet"	href="static/apps/main/css/app.css" />
+		<link rel="stylesheet"	href="static/apps/main/css/main.css" />
+		<link rel="stylesheet"	href="static/apps/main/css/success.css" />
+
+		<script>
+			window.isPhoneGap = false;
+			window.isCore = false;
+			if(window.isPhoneGap) {
+				var agent = window.navigator.userAgent;
+				if (agent.indexOf('iPhone') >= 0 || agent.indexOf('iPad') >= 0) {
+					document.write('<script src="cordova.ios.js"><\/script>');
+				} else if(agent.indexOf('Android') >= 0) {
+					document.write('<script src="cordova.android.js"></\script>');
+				}
+			}
+			if(window.isCore) {
+				document.addEventListener("deviceready", function() {
+					cordova.exec(function(retVal) {
+					},null,"Melon","loadCore",[]);
+				},false);
+			}
+		</script>
+
+		<script src="static/apps/melon/js/jMelon.js"></script>
+		<script src="static/apps/melon/js/jMelon.util.js"></script>
+		<script src="static/apps/melon/js/jMelon.task.js"></script>
+		<script src="static/apps/melon/js/jMelon.notification.js"></script>
+		<script src="static/apps/melon/js/jMelon.lazy.js"></script>
+		<script src="static/apps/melon/js/jMelon.ajax.js"></script>
+		<script src="static/apps/melon/js/jMelon.touch.js"></script>
+		<script src="static/apps/melon/js/jMelon.phone.js"></script>
+		<script src="static/apps/melon/js/jMelon.animation.js"></script>
+		<script src="static/apps/melon/js/jMelon.page.js"></script>
+		<script src="static/apps/melon/js/jMelon.frame.js"></script>
+		<script src="static/apps/melon/js/jMelon.scrollview.js"></script>
+		<script src="static/apps/melon/js/jMelon.tableview.js"></script>
+		<script src="static/apps/melon/js/jMelon.plugin.js"></script>
+
+		<script src="static/apps/ui/js/jMelon.ui.js"></script>
+
+		<script src="static/apps/main/js/api.js"></script>
+		<script src="static/apps/main/js/app.js"></script>
+		<script src="static/apps/main/js/main.js"></script>
+		<script src="static/apps/main/js/success.js"></script>
+		
+	</head>
+	<body style="background-color: #fff;">
+		<div style="height: 640px;width: 960px;margin: 0 auto;border: 1px solid #888;">
+			<div id="jMelonPhone" style="background-color: #888;"> </div>
+		</div>
+	</body>
+</html>

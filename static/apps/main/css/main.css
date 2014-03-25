@@ -1,0 +1,22 @@
+div.page {
+	background-color: #fff;
+}
+
+div.page.main > .content > .newsSV {
+	width: 760px;
+	height: 190px;
+	left: 100px;
+}
+
+div.page.main > .content> .newsSV > .content > .newsItem {
+	height: 30px;
+	background-color: #FF0;
+	border: solid 1px #000;
+}
+
+div.page.main > .content> .footer {
+	text-align: center;
+	font-size: 13px;
+	height: 29px;
+	line-height: 29px;
+}

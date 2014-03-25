@@ -1,0 +1,107 @@
+* {
+	font-family: 微软雅黑, "Helvetica Neue", HelveticaNeue, "Helvetica-Neue", Helvetica, "BBAlpha Sans", sans-serif;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+.ios * , .android * {
+	-webkit-font-smoothing: antialiased;
+}
+
+.ios * , .ios ::after , .ios ::before,
+.android * , .android ::after , .android ::before {
+	-webkit-tap-highlight-color: transparent;
+	-webkit-box-sizing: border-box;
+	-webkit-user-select: none;
+	-webkit-touch-callout: none;
+	-webkit-user-drag: none;
+}
+.firefox * , .firefox ::after , .firefox ::before {
+	-moz-box-sizing: border-box;
+	-moz-user-select: none;
+}
+.ie * , .ie ::after , .ie ::before {
+	box-sizing: border-box;
+}
+
+input , textarea {
+}
+#jMelonPhone {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.ios input , .ios textarea,
+.android input , .android textarea {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-touch-callout: auto !important;
+	-webkit-user-select: text !important;
+	-webkit-border-radius: 0;
+	-webkit-user-modify: read-write-plaintext-only;
+	outline-border: none;
+}
+.firefox input , .firefox textarea {
+	-moz-user-select: text !important;
+	-moz-border-radius: 0;
+}
+.ie input , .ie textarea {
+	border-radius: 0;
+}
+
+a {
+	text-decoration: none;
+}
+body {
+	font-size: 18px;
+}
+div.page {
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.ios.e3d div.page , .android.e3d div.page {
+	-webkit-transform: translate3d(0, 0, 0);
+}
+.firefox.e3d div.page {
+	-moz-transform: translate3d(0, 0, 0);
+}
+.ie.e3d div.page {
+	transform: translate3d(0, 0, 0);
+}
+
+.ios.e3d div.page.no-trans ,
+.android.e3d div.page.no-trans {
+	-webkit-transform: none;
+}
+.firefox.e3d div.page.no-trans {
+	-moz-transform: none;
+}
+
+div.page > div.content {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+	bottom: 0;
+}
+
+.frame {
+	top: 0;
+	bottom: 0;
+	/*width: 100%;*/
+	position: absolute;
+	display: none;
+	overflow: hidden;
+}
+.ios.e3d .frame ,
+.android.e3d .frame {
+	-webkit-transform: translate3d(0, 0, 0);
+}
+.firefox.e3d .frame {
+	-moz-transform: translate3d(0, 0, 0);
+}
+.ie.e3d .frame {
+	transform: translate3d(0, 0, 0);
+}
